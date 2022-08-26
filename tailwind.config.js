@@ -28,7 +28,15 @@ module.exports = {
         "header-mobile": "url('../images/mobile/image-header.jpg')",
         "header-desktop": "url('../images/desktop/image-header.jpg')",
         "transform-mobile": "url('../images/mobile/image-transform.jpg')",
-        "transform-desktop": "url('../images/mobile/image-transform.jpg')",
+        "transform-desktop": "url('../images/desktop/image-transform.jpg')",
+        "stand-out-mobile": "url('../images/mobile/image-stand-out.jpg')",
+        "stand-out-desktop": "url('../images/desktop/image-stand-out.jpg')",
+        "cherry-main-mobile":
+          "url('../images/mobile/image-graphic-design.jpg')",
+        "cherry-main-desktop":
+          "url('../images/desktop/image-graphic-design.jpg')",
+        "orange-main-mobile": "url('../images/mobile/image-photography.jpg')",
+        "orange-main-desktop": "url('../images/desktop/image-photography.jpg')",
       },
     },
   },

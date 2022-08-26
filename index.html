@@ -26,9 +26,11 @@
           class="flex-1 bg-header-mobile bg-cover bg-center bg-no-repeat lg:bg-header-desktop"
         >
           <!-- Navigation -->
-          <nav class="flex justify-between items-center mx-10 lg:mx-32 my-20">
+          <nav class="flex justify-between items-center mx-10 lg:mx-32 my-10">
             <!-- Logo -->
-            <img src="images/logo.svg" alt="" class="w-30 md:w-44" />
+            <a href="#">
+              <img src="images/logo.svg" alt="" class="w-30 md:w-44" />
+            </a>
 
             <!-- Menu -->
             <div
@@ -62,16 +64,130 @@
 
     <main>
       <!-- Main Grid -->
-      <div class="grid grid-cols-1 md:grid-cols-2">
-        <!-- Grid Individual Containers -->
-        <div class="bg-gray-600">
-          <img src="images/mobile/image-transform.jpg" alt="" />
-        </div>
+      <!-- <div class="grid grid-cols-1 md:grid-cols-2 grid-rows-[400px]">
+        <div
+          class="bg-transform-mobile bg-cover bg-center bg-no-repeat lg:bg-transform-desktop lg:place-self-end"
+        ></div>
         <div class="bg-gray-300">B</div>
         <h1>Hi</h1>
         <h1>Hi</h1>
         <h1>Hi</h1>
         <h1>Hi</h1>
+      </div> -->
+
+      <!-- Transform Row -->
+      <div class="flex flex-col lg:flex-row-reverse">
+        <!-- Picture -->
+        <div class="flex h-[30rem] w-full lg:w-1/2 lg:h-[36rem]">
+          <div
+            class="flex-1 bg-transform-mobile bg-cover bg-center bg-no-repeat lg:bg-transform-desktop"
+          ></div>
+        </div>
+        <!-- Text -->
+        <div
+          class="max-w-sm text-center mx-auto my-24 px-10 lg:my-36 lg:text-left lg:max-w-md"
+        >
+          <h3 class="font-serif font-[700] text-3xl mb-6 lg:text-4xl lg:mb-10">
+            Transform your brand
+          </h3>
+          <p
+            class="font-sans text-grayishBlue leading-7 text-sm pb-5 lg:text-md lg:pb-8"
+          >
+            We are a full-service creative agency specializing in helping brands
+            grow fast. Engage your clients through compelling visuals that do
+            most of the marketing for you.
+          </p>
+          <div class="relative mx-auto group">
+            <span class="relative uppercase font-serif z-20 text-sm lg:ml-3"
+              >Learn More</span
+            >
+            <div
+              class="absolute bg-yellow opacity-30 h-2 w-32 rounded-lg left-[5.5rem] bottom-[0.1px] z-10 group-hover:opacity-80 lg:left-0"
+            ></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Stand Out Row -->
+      <div class="flex flex-col lg:flex-row">
+        <!-- Picture -->
+        <div class="flex h-[30rem] w-full lg:w-1/2 lg:h-[36rem]">
+          <div
+            class="flex-1 bg-stand-out-mobile bg-cover bg-center bg-no-repeat lg:bg-stand-out-desktop"
+          ></div>
+        </div>
+        <!-- Text -->
+        <div
+          class="max-w-sm text-center mx-auto my-24 px-10 lg:my-36 lg:text-left lg:max-w-md"
+        >
+          <h3 class="font-serif font-[700] text-3xl mb-6 lg:text-4xl lg:mb-10">
+            Stand out to the right audience
+          </h3>
+          <p
+            class="font-sans text-grayishBlue leading-7 text-sm pb-5 lg:text-md lg:pb-8"
+          >
+            Using a collaborative formula of designers, researchers,
+            photographers, videographers, and copywriters, we'll build and
+            extend your brand in digital places.
+          </p>
+          <div class="relative mx-auto group">
+            <span class="relative uppercase font-serif z-20 text-sm lg:ml-3"
+              >Learn More</span
+            >
+            <div
+              class="absolute bg-red-100 h-2 w-32 rounded-lg left-[5.5rem] bottom-[0.1px] z-10 group-hover:bg-red-400 lg:left-0"
+            ></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Orange/Cherry Row -->
+      <div class="flex flex-col lg:flex-row">
+        <!-- Picture -->
+        <div class="flex h-[30rem] w-full lg:w-1/2 lg:h-[50rem]">
+          <div
+            class="flex-1 bg-cherry-main-mobile bg-cover bg-center bg-no-repeat lg:bg-cherry-main-mobile"
+          >
+          <div
+          class="max-w-sm text-center mx-auto pt-20 lg:pt-[21rem] px-10 my-36 lg:max-w-md"
+        >
+          <h3 class="font-serif font-[700] text-3xl mb-6 lg:text-4xl lg:mb-10 text-[#166253]">
+            Graphic Design          
+          </h3>
+          <p
+            class="font-sans leading-7 text-sm pb-5 lg:text-md lg:pb-8 text-[#166253]"
+          >
+          Great design makes you memorable. We deliver
+          artwork that underscores your brand message
+          and captures potential clients' attention.
+          </p>
+          </div>
+        </div>
+        </div>
+
+        <div class="flex h-[30rem] w-full lg:w-1/2 lg:h-[50rem]">
+          <div
+            class="flex-1 bg-orange-main-mobile bg-cover bg-center bg-no-repeat lg:bg-orange-main-desktop"
+          >
+          <div
+          class="max-w-sm text-center mx-auto pt-32 lg:pt-[21rem] px-10 my-36  lg:max-w-md"
+        >
+          <h3 class="font-serif font-[700] text-3xl mb-6 lg:text-4xl lg:mb-10 text-[#135d77]">
+            Photography          
+          </h3>
+          <p
+            class="font-sans leading-7 text-sm pb-5 lg:text-md lg:pb-8 text-[#135d77]"
+          >
+          Increase your credibility by getting the most
+          stunning, high-quality photos that improve your
+          business image.
+          </p>
+          </div>
+        </div>
+        </div>
+        </div>
+       
+        </div>
       </div>
     </main>
   </body>
