@@ -21,7 +21,7 @@
   <body>
     <!-- Header -->
     <header>
-      <div class="flex min-h-screen">
+      <div class="flex min-h-[800px] lg:min-h-[900px]">
         <div
           class="flex-1 bg-header-mobile bg-cover bg-center bg-no-repeat lg:bg-header-desktop"
         >
@@ -48,7 +48,7 @@
           </nav>
 
           <h1
-            class="font-black font-serif uppercase text-center text-4xl md:text-5xl text-white tracking-[0.18em] max-w-xs mx-auto md:max-w-none mt-20"
+            class="font-black font-serif uppercase text-center text-4xl md:text-5xl text-white tracking-base max-w-xs mx-auto md:max-w-none mt-20"
           >
             We are creatives
           </h1>
@@ -144,51 +144,124 @@
       <!-- Orange/Cherry Row -->
       <div class="flex flex-col lg:flex-row">
         <!-- Picture -->
-        <div class="flex h-[30rem] w-full lg:w-1/2 lg:h-[50rem]">
+        <div
+          class="flex h-[30rem] w-full lg:w-1/2 lg:h-[50rem] xl:min-h-[500px]"
+        >
           <div
             class="flex-1 bg-cherry-main-mobile bg-cover bg-center bg-no-repeat lg:bg-cherry-main-mobile"
           >
-          <div
-          class="max-w-sm text-center mx-auto pt-20 lg:pt-[21rem] px-10 my-36 lg:max-w-md"
-        >
-          <h3 class="font-serif font-[700] text-3xl mb-6 lg:text-4xl lg:mb-10 text-[#166253]">
-            Graphic Design          
-          </h3>
-          <p
-            class="font-sans leading-7 text-sm pb-5 lg:text-md lg:pb-8 text-[#166253]"
-          >
-          Great design makes you memorable. We deliver
-          artwork that underscores your brand message
-          and captures potential clients' attention.
-          </p>
+            <div
+              class="max-w-sm text-center mx-auto pt-20 lg:pt-[21rem] px-10 my-36 lg:max-w-md"
+            >
+              <h3
+                class="font-serif font-[700] text-3xl mb-6 lg:text-4xl lg:mb-10 text-[#166253]"
+              >
+                Graphic Design
+              </h3>
+              <p
+                class="font-sans leading-7 text-sm pb-5 lg:text-md lg:pb-8 text-[#166253]"
+              >
+                Great design makes you memorable. We deliver artwork that
+                underscores your brand message and captures potential clients'
+                attention.
+              </p>
+            </div>
           </div>
-        </div>
         </div>
 
         <div class="flex h-[30rem] w-full lg:w-1/2 lg:h-[50rem]">
           <div
             class="flex-1 bg-orange-main-mobile bg-cover bg-center bg-no-repeat lg:bg-orange-main-desktop"
           >
-          <div
-          class="max-w-sm text-center mx-auto pt-32 lg:pt-[21rem] px-10 my-36  lg:max-w-md"
-        >
-          <h3 class="font-serif font-[700] text-3xl mb-6 lg:text-4xl lg:mb-10 text-[#135d77]">
-            Photography          
-          </h3>
-          <p
-            class="font-sans leading-7 text-sm pb-5 lg:text-md lg:pb-8 text-[#135d77]"
-          >
-          Increase your credibility by getting the most
-          stunning, high-quality photos that improve your
-          business image.
-          </p>
+            <div
+              class="max-w-sm text-center mx-auto pt-32 lg:pt-[21rem] px-10 my-36 lg:max-w-md"
+            >
+              <h3
+                class="font-serif font-[700] text-3xl mb-6 lg:text-4xl lg:mb-10 text-[#135d77]"
+              >
+                Photography
+              </h3>
+              <p
+                class="font-sans leading-7 text-sm pb-5 lg:text-md lg:pb-8 text-[#135d77]"
+              >
+                Increase your credibility by getting the most stunning,
+                high-quality photos that improve your business image.
+              </p>
+            </div>
           </div>
-        </div>
-        </div>
-        </div>
-       
         </div>
       </div>
     </main>
+
+    <!-- Testimonial Section -->
+    <section id="testimonial">
+      <div class="container mx-auto py-32">
+        <!-- Title -->
+        <h3
+          class="font-bold text-xl font-serif text-grayishBlue tracking-base text-center"
+        >
+          Client Testimonials
+        </h3>
+
+        <!-- Flex Container Testimonials -->
+        <div
+          class="flex flex-col items-center justify-center md:flex-row mt-10 space-y-14 md:space-y-0 md:space-x-5"
+        >
+          <!-- Item 1 -->
+          <div class="flex flex-col items-center text-center">
+            <img
+              src="images/image-emily.jpg"
+              alt=""
+              class="rounded-full w-16 lg:w-20"
+            />
+            <p
+              class="max-w-md px-10 text-darkGrayishBlue text-base mt-5 leading-7"
+            >
+              We put our trust in Sunnyside and they delivered, making sure our
+              needs were met and deadlines were always hit.
+            </p>
+
+            <span class="font-serif mt-8 text-lg xl:mt-16">Emily R.</span>
+            <span class="text-gray-300 font-normal">Marketing Director</span>
+          </div>
+          <!-- Item 2 -->
+          <div class="flex flex-col justify-center items-center text-center">
+            <img
+              src="images/image-thomas.jpg"
+              alt=""
+              class="rounded-full w-16 lg:w-20"
+            />
+            <p
+              class="max-w-md px-10 text-darkGrayishBlue text-base mt-5 leading-7"
+            >
+              Sunnyside's enthusiasm coupled with their keen interest in our
+              brand's success made it a satisfying and enjoyable experience.
+            </p>
+
+            <span class="font-serif mt-8 text-lg xl:mt-16">Thomas S.</span>
+            <span class="text-gray-300 font-normal"
+              >Chief Operating Officer</span
+            >
+          </div>
+          <!-- Item 3 -->
+          <div class="flex flex-col justify-center items-center text-center">
+            <img
+              src="images/image-jennie.jpg"
+              alt=""
+              class="rounded-full w-16 lg:w-20"
+            />
+            <p
+              class="max-w-md px-10 text-darkGrayishBlue text-base mt-5 leading-7"
+            >
+              Incredible end result! Our sales increased over 400% when we
+              worked with Sunnyside. Highly recommended!
+            </p>
+
+            <span class="font-serif mt-8 text-lg xl:mt-16">Jennie F.</span>
+            <span class="text-gray-300 font-normal">Business Owner</span>
+          </div>
+        </div>
+      </div>
+    </section>
   </body>
 </html>

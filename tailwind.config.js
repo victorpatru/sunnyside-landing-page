@@ -38,6 +38,9 @@ module.exports = {
         "orange-main-mobile": "url('../images/mobile/image-photography.jpg')",
         "orange-main-desktop": "url('../images/desktop/image-photography.jpg')",
       },
+      letterSpacing: {
+        base: "0.18em",
+      },
     },
   },
   plugins: [],
