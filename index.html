@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="scroll-smooth">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -44,6 +44,38 @@
                 class="bg-white text-black font-serif px-10 py-4 rounded-full uppercase text-base hover:text-white hover:bg-[#74d5fa] duration-200"
                 >Contact</a
               >
+            </div>
+
+            <!-- Hamburger Button -->
+            <button
+              id="menu-btn"
+              class="z-30 block md:hidden focus:outline-none hamburger"
+            >
+              <span class="hamburger-top"></span>
+              <span class="hamburger-middle"></span>
+              <span class="hamburger-bottom"></span>
+            </button>
+
+            <!-- Mobile Menu -->
+            <div
+              id="menu"
+              class="fixed inset-0 z-20 hidden flex-col items-center self-end w-full h-full m-h-screen px-6 py-1 pt-24 pb-4 tracking-widest text-white uppercase divide-y divide-gray-500 opacity-90 bg-veryDarkBlue"
+            >
+              <div class="w-full py-3 text-center">
+                <a href="#" class="block hover:text-softRed">About</a>
+              </div>
+
+              <div class="w-full py-3 text-center">
+                <a href="#" class="block hover:text-softRed">Services</a>
+              </div>
+
+              <div class="w-full py-3 text-center">
+                <a href="#" class="block hover:text-softRed">Project</a>
+              </div>
+
+              <div class="w-full py-3 text-center">
+                <a href="#" class="block">Contact</a>
+              </div>
             </div>
           </nav>
 
@@ -97,7 +129,7 @@
             grow fast. Engage your clients through compelling visuals that do
             most of the marketing for you.
           </p>
-          <div class="relative mx-auto group">
+          <div class="relative mx-auto group cursor-pointer">
             <span class="relative uppercase font-serif z-20 text-sm lg:ml-3"
               >Learn More</span
             >
@@ -130,7 +162,7 @@
             photographers, videographers, and copywriters, we'll build and
             extend your brand in digital places.
           </p>
-          <div class="relative mx-auto group">
+          <div class="relative mx-auto group cursor-pointer">
             <span class="relative uppercase font-serif z-20 text-sm lg:ml-3"
               >Learn More</span
             >
@@ -263,5 +295,51 @@
         </div>
       </div>
     </section>
+
+    <!-- Illustration section -->
+    <section id="illustration">
+      <div class="grid grid-cols-2 md:grid-cols-4 xl:px-32">
+        <img
+          src="images/mobile/image-gallery-milkbottles.jpg"
+          alt=""
+          class=""
+        />
+        <img src="images/mobile/image-gallery-orange.jpg" alt="" />
+        <img src="images/mobile/image-gallery-cone.jpg" alt="" />
+        <img src="images/mobile/image-gallery-sugar-cubes.jpg" alt="" />
+      </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="bg-[#90dccc]">
+      <div
+        class="flex flex-col justify-center items-center py-24 space-y-14 text-[#158370]"
+      >
+        <a href="#" class="text-3xl font-bold font-serif">sunnyside</a>
+
+        <ul class="flex space-x-12 opacity-70">
+          <li class="hover:text-white"><a href="#">About</a></li>
+          <li class="hover:text-white"><a href="#">Services</a></li>
+          <li class="hover:text-white"><a href="#">Projects</a></li>
+        </ul>
+
+        <ul class="flex space-x-6 mt-20">
+          <a href="#">
+            <img src="images/icon-facebook.svg" alt="Facebook" class="ficon" />
+          </a>
+          <a href="#"
+            ><img src="images/icon-instagram.svg" alt="" class="ficon"
+          /></a>
+          <a href="#"
+            ><img src="images/icon-twitter.svg" alt="" class="ficon"
+          /></a>
+          <a href="#"
+            ><img src="images/icon-pinterest.svg" alt="" class="ficon"
+          /></a>
+        </ul>
+      </div>
+    </footer>
+
+    <script src="js/script.js"></script>
   </body>
 </html>
