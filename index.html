@@ -4,10 +4,75 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/ee8decf9b5.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow:wght@600&family=Fraunces:opsz,wght,SOFT@9..144,700,100;9..144,900,100&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="css/style.css" />
     <title>Sunnyside Landing Page</title>
   </head>
   <body>
-    <h1 class="text-3xl">Tailwind Starter</h1>
+    <!-- Header -->
+    <header>
+      <div class="flex min-h-screen">
+        <div
+          class="flex-1 bg-header-mobile bg-cover bg-center bg-no-repeat lg:bg-header-desktop"
+        >
+          <!-- Navigation -->
+          <nav class="flex justify-between items-center mx-10 lg:mx-32 my-20">
+            <!-- Logo -->
+            <img src="images/logo.svg" alt="" class="w-30 md:w-44" />
+
+            <!-- Menu -->
+            <div
+              class="hidden md:flex space-x-10 font-sans text-lg text-white items-center"
+            >
+              <a href="#about">About</a>
+              <a href="#services">Services</a>
+              <a href="#projects">Projects</a>
+              <a
+                href="#"
+                class="bg-white text-black font-serif px-10 py-4 rounded-full uppercase text-base hover:text-white hover:bg-[#74d5fa] duration-200"
+                >Contact</a
+              >
+            </div>
+          </nav>
+
+          <h1
+            class="font-black font-serif uppercase text-center text-4xl md:text-5xl text-white tracking-[0.18em] max-w-xs mx-auto md:max-w-none mt-20"
+          >
+            We are creatives
+          </h1>
+
+          <div class="flex justify-center mt-20">
+            <span
+              class="fa-solid fa-arrow-down-long fa-4x hover:translate-y-6 cursor-pointer duration-500 hover:opacity-80"
+            ></span>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <!-- Main Grid -->
+      <div class="grid grid-cols-1 md:grid-cols-2">
+        <!-- Grid Individual Containers -->
+        <div class="bg-gray-600">
+          <img src="images/mobile/image-transform.jpg" alt="" />
+        </div>
+        <div class="bg-gray-300">B</div>
+        <h1>Hi</h1>
+        <h1>Hi</h1>
+        <h1>Hi</h1>
+        <h1>Hi</h1>
+      </div>
+    </main>
   </body>
 </html>
